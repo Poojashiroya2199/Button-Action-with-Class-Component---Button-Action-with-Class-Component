@@ -23,11 +23,10 @@ class App extends Component {
         <button id="click" onClick={this.hadleclick}>
           click
         </button>
-        <p id="para">
+        
           {this.state.para
-            ? "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"
+            ? <p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</>
             : ""}
-        </p>
       </div>
     );
   }
